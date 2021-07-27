@@ -37,19 +37,13 @@
         console.log(event)
         if (event.target.readyState === "complete") {
             console.log("test1")
-            var resource = document.createElement('script'); 
-            console.log("test2")
-            resource.defer = "true";
-            console.log("test3")
-            resource.src = "https://dev2-chatbot.agentz.ai/agentz-chatbot.js?version=1&botUrl=https://dev2-chatbot.agentz.ai&title=title&businessAgent=341a4b01-8a18-4e2a-8c49-b4ef7f77f184";
-            console.log("test4")
+            let sp1 = document.createElement("script")
             var script = document.getElementsByTagName('script')[0];
             console.log("test5")
             console.log("parentNode",script.parentNode)
-           console.log("script",script)
-           let sp1 = document.createElement("span")
-           console.log("sp1",sp1)
-           script.parentNode.insertBefore(sp1, script);
+            console.log("script",script)
+            console.log("sp1",sp1)
+            script.parentNode.insertBefore(sp1, script);
             console.log("test6")
 
         }
