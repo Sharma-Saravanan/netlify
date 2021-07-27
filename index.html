@@ -30,23 +30,13 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-      <div id="agentz-chatbot-341a4b01-8a18-4e2a-8c49-b4ef7f77f184"></div>
+    <div id="agentz-chatbot-341a4b01-8a18-4e2a-8c49-b4ef7f77f184"></div>
     <script>
     console.log("readystatechange")
     document.addEventListener('readystatechange', function(event){
         console.log(event)
         if (event.target.readyState === "complete") {
-            console.log("test1")
-            var resource = document.createElement('script'); 
-            console.log("test2")
-            resource.defer = "true";
-            console.log("test3")
-            resource.src = "https://dev2-chatbot.agentz.ai/agentz-chatbot.js?version=1&botUrl=https://dev2-chatbot.agentz.ai&title=title&businessAgent=341a4b01-8a18-4e2a-8c49-b4ef7f77f184";
-            console.log("test4")
-            var script = document.getElementsByTagName('script')[0];
-            console.log("test5")
-            script.parentNode.insertBefore(resource, script);
-            console.log("test6")
+            console.log("I am in!!!!!")
         }
     }, false);
     </script>
