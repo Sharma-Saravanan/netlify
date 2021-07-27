@@ -39,6 +39,12 @@
             console.log("test1")
             var resource = document.createElement('script'); 
             console.log("test2")
+            resource.defer = "true";
+            console.log("test3")
+            resource.src = "https://dev2-chatbot.agentz.ai/agentz-chatbot.js?version=1&botUrl=https://dev2-chatbot.agentz.ai&title=title&businessAgent=341a4b01-8a18-4e2a-8c49-b4ef7f77f184";
+            console.log("test4")
+            var script = document.getElementsByTagName('script')[0];
+            console.log("test5")
         }
     }, false);
     </script>
