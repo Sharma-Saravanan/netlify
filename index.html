@@ -42,7 +42,7 @@
         }
     }, false);
     </script> -->
-      
+<!--       
       <div id=“agentz-chatbot-019467cc-ba69-4b40-b775-b70f73f2cfbc”></div>
     <script>
     document.onreadystatechange = function(){
@@ -50,6 +50,18 @@
             var resource = document.createElement('script');
             resource.defer = "true";
             resource.src = "https://chatbot.agentz.ai/agentz-chatbot.js?version=1&botUrl=https://chatbot.agentz.ai&title=title&businessAgent=019467cc-ba69-4b40-b775-b70f73f2cfbc";
+            var script = document.getElementsByTagName('script')[0];
+            script.parentNode.insertBefore(resource, script);
+        }
+    }; -->
+<!--     </script> -->
+    <div id="agentz-chatbot-16945015-1e33-4761-bd38-f1defc8d1916"></div>
+    <script>
+    document.onreadystatechange = function(){
+        if (document.readyState === "complete") {
+            var resource = document.createElement('script'); 
+            resource.defer = "true";
+            resource.src = "https://dev2-chatbot.agentz.ai/agentz-chatbot.js?version=1&botUrl=https://dev2-chatbot.agentz.ai&title=title&businessAgent=16945015-1e33-4761-bd38-f1defc8d1916";
             var script = document.getElementsByTagName('script')[0];
             script.parentNode.insertBefore(resource, script);
         }
